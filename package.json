@@ -9,6 +9,8 @@
     "prod": "env-cmd -f ./config/.env.prod.local next dev",
     "prod:build": "env-cmd -f ./config/.env.prod.local next build",
     "prod:start": "env-cmd -f ./config/.env.prod.local next start",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
