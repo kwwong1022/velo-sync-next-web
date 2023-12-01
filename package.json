@@ -1,0 +1,32 @@
+{
+  "name": "velo-sync-next-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "env-cmd -f ./config/.env.dev.local next dev",
+    "dev:build": "env-cmd -f ./config/.env.dev.local next build",
+    "dev:start": "env-cmd -f ./config/.env.dev.local next start",
+    "prod": "env-cmd -f ./config/.env.prod.local next dev",
+    "prod:build": "env-cmd -f ./config/.env.prod.local next build",
+    "prod:start": "env-cmd -f ./config/.env.prod.local next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "env-cmd": "^10.1.0",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
