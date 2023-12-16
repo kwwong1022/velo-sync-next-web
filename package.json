@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+
     "dev": "env-cmd -f ./config/.env.dev.local next dev",
     "dev:build": "env-cmd -f ./config/.env.dev.local next build",
     "dev:start": "env-cmd -f ./config/.env.dev.local next start",
@@ -11,7 +12,8 @@
     "prod:start": "env-cmd -f ./config/.env.prod.local next start",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "npx prettier --write './app/**/*.{js,ts,jsx,tsx,mdx}'"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
