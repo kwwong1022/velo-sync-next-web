@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Params) {
 export default function RootLayout({ children, params }: Props) {
   return (
     <html lang={params.lang}>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-neutral-50 text-base font-light`}>
         <Header lang={params.lang} />
         {children}
         <Footer lang={params.lang} />
