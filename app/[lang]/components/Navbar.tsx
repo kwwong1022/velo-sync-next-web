@@ -43,7 +43,7 @@ export default function Navbar({ lang, navigation }: Props) {
 
                             <div className="hidden sm:flex ml-2 w-2 h-1/2 border-l-2 border-l-grey" />
 
-                            <Link className="hidden ml-4 rounded-full bg-gray-200 w-8 h-8" href={`/${lang}/user`} />
+                            <Link className="hidden ml-4 rounded-full bg-neutral-200 w-8 h-8" href={`/${lang}/user`} />
 
                             <Link className="hidden sm:flex items-center ml-5 px-4 h-8 rounded-md bg-gray-800 text-gray-200 font-normal" href={`/${lang}/user`}>
                                 {navigation.login.title}
@@ -73,7 +73,7 @@ export default function Navbar({ lang, navigation }: Props) {
 
             <nav className={
                 isNavOpen
-                ? "fixed top-16 right-0 w-screen px-16 pb-16 bg-neutral-100 sm:hidden ease-in duration-300 z-0"
+                ? "fixed top-16 right-0 w-screen px-16 pb-16 bg-neutral-100 sm:hidden ease duration-300 z-0"
                 : "fixed top-[-100%] right-0 w-screen z-0 ease-in duration-500"
             }>
                 <ul>

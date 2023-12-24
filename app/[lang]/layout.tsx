@@ -18,14 +18,14 @@ export async function generateMetadata({ params }: Params) {
   const { page } = await getDictionary(params.lang)
   return {
     title: page.home.title,
-    description: page.home.description,
+    description: page.home.descriptionFull,
   }
 }
 
 export default function RootLayout({ children, params }: Props) {
   return (
     <html lang={params.lang}>
-      <body className={`${inter.className} bg-neutral-50 text-base font-light`}>
+      <body className={`${inter.className} bg-neutral-50 text-neutral-700 text-base font-light flex flex-col min-h-screen`}>
         <Header lang={params.lang} />
         {children}
         <Footer lang={params.lang} />
