@@ -20,6 +20,12 @@
         },
         "privacyPolicy": {
             "title": "Privacy Policy"
+        },
+        "langEn": {
+            "title": "English"
+        },
+        "langZh": {
+            "title": "ZH-Hant"
         }
     },
     "page": {

@@ -20,6 +20,12 @@
         },
         "privacyPolicy": {
             "title": "隱私權政策"
+        },
+        "langEn": {
+            "title": "English"
+        },
+        "langZh": {
+            "title": "ZH-Hant"
         }
     },
     "page": {

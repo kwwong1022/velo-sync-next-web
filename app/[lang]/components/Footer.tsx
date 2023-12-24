@@ -28,12 +28,20 @@ export default async function Footer({ lang }: Props) {
 
                 <div className="flex mt-6">
                     <Link href={`/${lang}/terms-and-conditions`}>{navigation.termsAndConditions.title}</Link>
+
                     <Link href={`/${lang}/privacy-policy`} className="mx-6">{navigation.privacyPolicy.title}</Link>
+
                     <div className="flex items-center cursor-pointer">
                         <GoGitBranch size={16} />
                         <div className="mx-2">{process.env.ENV}</div>
-                        <div>v0.1.0</div>
+                        <div className="mr-6">v0.1.0</div>
                     </div>
+
+                    {
+                        lang === 'en'
+                        ? (<Link href={`/zh`}>ZH-Hant</Link>)
+                        : (<Link href={`/en`}>English</Link>)
+                    }
                 </div>
             </nav>
         </footer>
