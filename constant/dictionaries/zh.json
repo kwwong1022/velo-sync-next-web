@@ -1,5 +1,17 @@
 {
     "navigation": {
+        "home": {
+            "title": "Velo Sync"
+        },
+        "videoEditor": {
+            "title": "影片編輯"
+        },
+        "workoutPlanner": {
+            "title": "訓練計劃"
+        },
+        "login": {
+            "title": "登入"
+        }
     },
     "page": {
         "home": {

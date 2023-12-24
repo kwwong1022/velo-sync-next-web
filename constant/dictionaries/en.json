@@ -1,5 +1,17 @@
 {
     "navigation": {
+        "home": {
+            "title": "Velo Sync"
+        },
+        "videoEditor": {
+            "title": "Video Editor"
+        },
+        "workoutPlanner": {
+            "title": "Workout Planner"
+        },
+        "login": {
+            "title": "Login"
+        }
     },
     "page": {
         "home": {
